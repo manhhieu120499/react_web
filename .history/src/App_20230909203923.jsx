@@ -22,7 +22,7 @@ export default function App() {
             element: <Layout />,
             errorElement: <div>404 not found</div>,
             children: [
-                { index: true, element: <HomePage /> },
+                {index: true, <HomePage/>},
                 {
                     path: "contact",
                     element: <ContactPage />,

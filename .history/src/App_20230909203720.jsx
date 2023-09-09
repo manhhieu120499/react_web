@@ -4,7 +4,6 @@ import BookPage from "./pages/book";
 import LoginPage from "./pages/login";
 import HeaderPage from "./components/Header";
 import FooterPage from "./components/Footer";
-import HomePage from "./pages/Home";
 const Layout = () => {
     return (
         <div className="layout-app">
@@ -22,7 +21,6 @@ export default function App() {
             element: <Layout />,
             errorElement: <div>404 not found</div>,
             children: [
-                { index: true, element: <HomePage /> },
                 {
                     path: "contact",
                     element: <ContactPage />,
